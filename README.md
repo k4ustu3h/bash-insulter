@@ -22,12 +22,18 @@ noob@bender:~ $ sp aux
 -bash: sp: command not found
 ```
 
-# Compatibility
+---
+
+## Compatibility
 
 - Bash v4 and newer
 - Zsh
 
-# Installation
+---
+
+## Installation
+
+### Bash or ZSH
 
 ```
     sudo wget -O /etc/bash.command-not-found https://github.com/k4ustu3h/bash-insulter/raw/master/src/bash.command-not-found
@@ -45,7 +51,25 @@ Login again and type some invalid commands for the effects to be visible.
 
 Note: You will have to add the script to `.zshrc` if you are using `zsh`
 
-# Configuration
+### Termux
+
+```
+    pkg install ncurses-utils
+    sudo wget -O /etc/bash.command-not-found https://github.com/k4ustu3h/bash-insulter/raw/master/src/bash.command-not-found
+
+```
+
+Then add the following to `/data/data/com.termux/files/usr/etc/bash.bashrc`
+
+```
+if [ -f /etc/bash.command-not-found ]; then
+    . /etc/bash.command-not-found
+fi
+```
+
+---
+
+## Configuration
 
 bash-insulter can be customized, or even be made polite and nice, by populating `CMD_NOT_FOUND_MSGS` or `CMD_NOT_FOUND_MSGS_APPEND` environment variables. The values should be arrays. `CMD_NOT_FOUND_MSGS` replaces the default messages, while `CMD_NOT_FOUND_MSGS_APPEND` appends more messages to the existing ones.
 
