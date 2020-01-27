@@ -72,3 +72,9 @@ fi
 ```
 
 Then logout and in again. The end result is that you will now use your messages instead of the default ones.
+
+---
+
+## Acknowledgments
+
+- [Reddit](https://www.reddit.com/r/insults/)
