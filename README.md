@@ -1,5 +1,7 @@
 # bash-insulter
 
+[![Nasty](https://forthebadge.com/images/badges/just-plain-nasty.svg)](https://forthebadge.com)
+
 Randomly insults the user when typing wrong command.
 
 Change insults as needed :)
@@ -26,8 +28,8 @@ noob@bender:~ $ sp aux
 
 ## Compatibility
 
-- Bash v4 and newer
-- Zsh
+-   Bash v4 and newer
+-   Zsh
 
 ---
 
@@ -101,4 +103,9 @@ Then logout and in again. The end result is that you will now use your messages 
 
 ## Acknowledgments
 
-- [Reddit](https://www.reddit.com/r/insults/)
+-   [Reddit](https://www.reddit.com/r/insults/)
+
+---
+
+[![Smile](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
+[![60%](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
