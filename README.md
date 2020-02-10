@@ -1,6 +1,6 @@
-# bash-insulter
-
 [![Nasty](https://forthebadge.com/images/badges/just-plain-nasty.svg)](https://forthebadge.com)
+
+# bash-insulter
 
 Randomly insults the user when typing wrong command.
 
@@ -104,6 +104,8 @@ Then logout and in again. The end result is that you will now use your messages 
 ## Acknowledgments
 
 -   [Reddit](https://www.reddit.com/r/insults/)
+    -   [r/insults](https://www.reddit.com/r/insults/)
+    -   [r/rareinsults](https://www.reddit.com/r/rareinsults/)
 
 ---
 
